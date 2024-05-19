@@ -1,0 +1,218 @@
+.left {
+	flex: 0.30;
+	height: 90vh;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-color: var(--background);
+}
+
+.left:hover {
+	overflow-y: scroll;
+}
+
+.btns {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid var(--outline);
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	/* margin-right: 1rem; */
+	width: 70%;
+}
+
+.btns>a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	background: none;
+	color: var(--left-btn);
+	font-weight: 600;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	border-radius: 5px;
+}
+
+.btns>a:hover {
+	background-color: var(--hover);
+}
+
+.btns>a>i {
+	margin-right: 1rem;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.5rem;
+	border-bottom: 1px solid var(--outline);
+	color: var(--textcol);
+	padding-bottom: 1rem;
+	margin-left: 2rem;
+	width: 70%;
+}
+
+.login>button {
+	margin-top: 1rem;
+	background-color: transparent;
+	border: 1px solid var(--textcol);
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--login-btn);
+	cursor: pointer;
+	border-radius: 5px;
+	height: 3rem;
+	width: 70%;
+}
+
+.login>p {
+	margin-bottom: 0;
+}
+
+.login>button:hover {
+	background-color: var(--hover-blue);
+	color: var(--white);
+}
+
+.accounts {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid var(--outline);
+	padding-bottom: 1rem;
+	margin-left: 2rem;
+	/* margin-right: 1rem; */
+	width: 70%;
+}
+
+
+.accounts>p {
+	margin-top: 1rem;
+	color: var(--userName);
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	color: var(--userName);
+}
+
+.user:hover {
+	background-color: var(--hover);
+	cursor: pointer;
+}
+
+.user>img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 0.5px solid var(--textcol);
+}
+
+.user>h6 {
+	font-size: 0.9rem;
+	font-weight: 600;
+	margin-left: 1rem;
+}
+
+.tags {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid var(--outline);
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 0rem;
+	width: 70%;
+}
+
+.tags>p {
+	margin-top: 0;
+	color: var(--tags);
+	font-size: 1.75rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.tags>div {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 5px;
+}
+
+.tags>div>a {
+	text-decoration: none;
+	color: var(--tags);
+	font-size: 0.9rem;
+	border: 1px solid var(--outline);
+	border-radius: 5px;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.tags>div>a:hover {
+	background-color: var(--hover);
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	/* margin-right: 1rem; */
+	width: 60%;
+}
+
+.links>div {
+	display: flex;
+	flex-direction: column;
+}
+
+.link {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 5px;
+}
+
+.link>a {
+	font-size: 0.8rem;
+	text-decoration: none;
+	color: var(--userName);
+}
+
+.link>a:hover {
+	text-decoration: underline;
+}
+
+.copyright {
+	margin-top: 1rem;
+	color: var(--userName);
+}
+
+.avatar-side {
+	height: auto;
+	width: 3rem;
+	background-color: transparent;
+	border: 1px solid var(--blue);
+	border-radius: 50%;
+}
+
+.avatar-side:hover {
+	cursor: pointer;
+}
+
+.avatar-side img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+}
